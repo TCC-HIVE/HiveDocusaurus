@@ -248,7 +248,7 @@
 .footer__copyright {
   color: rgba(255,255,255,0.65);
   font-size: 0.8rem;
-  border-top: 1px solid rgba(255,255,255,0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.171);
   padding-top: 1.5rem;
   margin-top: 2.5rem;
   text-align: center;
@@ -297,7 +297,7 @@
 }
 .menu__link:hover {
   color: var(--hive-purple-200);
-  background: rgba(161, 89, 209, 0.164);
+  background: rgba(161, 89, 209, 0.082);
 }
 
 /* markdown e cards */
