@@ -41,32 +41,32 @@ function HeroSection() {
 function FeaturesSection() {
   const features = [
     {
-      icon: '🧩',
+      icon: 'hexa_icon',
       title: 'Biblioteca Colaborativa',
       desc: 'Componentes criados e compartilhados por toda a equipe em um único ambiente centralizado e organizado.',
     },
     {
-      icon: '🔗',
+      icon: 'engrenagem_icon',
       title: 'Componentes Funcionais',
       desc: 'Integração direta com o Figma via plugin proprietário: exporte e importe componentes com um clique.',
     },
     {
-      icon: '⚡',
+      icon: 'code_icon',
       title: 'Multi-framework',
       desc: 'Suporte a React, Angular, Vue e mais. Reutilize componentes em diferentes projetos e stacks.',
     },
     {
-      icon: '🏷️',
+      icon: 'filter_icon',
       title: 'Tags & Filtros',
       desc: 'Encontre rapidamente o que precisa com sistema avançado de tags, filtros e busca por nome.',
     },
     {
-      icon: '🛡️',
+      icon: 'security_icon',
       title: 'Controle de Acesso',
       desc: 'Perfis de usuário (comum e administrador) com permissões granulares para maior segurança.',
     },
     {
-      icon: '📋',
+      icon: 'alert_icon',
       title: 'Sistema de Reports',
       desc: 'Reporte inconsistências em colaborações e acompanhe o ciclo completo de resolução.',
     },
@@ -81,7 +81,7 @@ function FeaturesSection() {
         <div className={styles.cardsGrid}>
           {features.map((f, i) => (
             <div className={styles.featureCard} key={i}>
-              <span className={styles.featureIcon}>{f.icon}</span>
+              <span className={styles.featureIcon}><img className={styles.featureIconImg} src={`img/${f.icon}.png`} alt="" /></span>
               <h3>{f.title}</h3>
               <p>{f.desc}</p>
             </div>
@@ -94,7 +94,7 @@ function FeaturesSection() {
 
 function HowItWorksSection() {
   const steps = [
-    { n: '01', title: 'Crie no Figma', text: 'Projete seu componente no Figma seguindo o Brand Guide da ETS.' },
+    { n: '01', title: 'Crie no Figma', text: 'Crie seu componente no Figma seguindo o Brand Guide da ETS.' },
     { n: '02', title: 'Exporte via Plugin', text: 'Use o plugin HIVE para exportar o componente como JSON estruturado.' },
     { n: '03', title: 'Publique na Plataforma', text: 'O componente é cadastrado com metadados, tags e preview automático.' },
     { n: '04', title: 'Adicione Código', text: 'Colaboradores adicionam implementações em React, Angular, Vue e mais.' },

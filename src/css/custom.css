@@ -1,4 +1,3 @@
-/* ===== HIVE Design Tokens ===== */
 :root {
   --hive-purple-900: #2F0A40;
   --hive-purple-800: #49225B;
@@ -23,41 +22,25 @@
   --ifm-color-primary-lighter: #8b45a8;
   --ifm-color-primary-lightest: #9d52ba;
 
-  --ifm-font-family-base: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  --ifm-font-family-monospace: 'Fira Code', 'Cascadia Code', monospace;
-  --ifm-heading-font-weight: 700;
-  --ifm-navbar-height: 64px;
-
-  --ifm-code-font-size: 90%;
-  --docusaurus-highlighted-code-line-bg: rgba(104, 48, 130, 0.1);
+  --ifm-font-family-base: 'Inter', sans-serif;
 }
 
-[data-theme='dark'] {
-  --ifm-background-color: #1a0a24;
-  --ifm-background-surface-color: #23103a;
-  --docusaurus-highlighted-code-line-bg: rgba(177, 125, 221, 0.15);
-}
-
-/* ===== Google Fonts ===== */
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
 
-/* ===== Navbar ===== */
+/* navbar */
 .navbar {
-  background-color: var(--ifm-navbar-background-color); 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  padding: 0.5rem 1rem;
   height: 75px;
   transition: background-color 0.3s ease;
 }
 
 [data-theme='dark'] .navbar {
-  background-color: #1a0a24;
-  border-bottom: 1px solid rgba(177, 125, 221, 0.2);
+  background-color: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .navbar__inner {
-  display: flex;
-  justify-content: space-between;
   margin: 0 10px;
   width: 100%;
 }
@@ -69,13 +52,6 @@
 .navbar__items {
   display: flex;
   gap: 1rem;
-}
-
-.navbar__title {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: 0.08em;
 }
 
 .navbar__link {
@@ -113,14 +89,18 @@
   background-color: var(--hive-purple-200) !important;
 }
 
+[data-theme='dark'] .navbar__link:hover {
+  color: var(--hive-purple-200) !important;
+}
+
 [data-theme='dark'] .navbar__link--active {
   color: var(--hive-purple-200);
 }
 
-/* ===== 3. TOGGLE DE TEMA ===== */
+/* toogle de tema */
 [class*='colorModeToggle'] {
-  width: 60px !important;
-  height: 34px !important;
+  width: 70px !important;
+  height: 40px !important;
   background-color: var(--hive-gray-light) !important;
   border: 2px solid var(--hive-purple-300) !important;
   border-radius: 20px !important;
@@ -137,13 +117,13 @@
 }
 
 [class*='colorModeToggle'] button {
-  width: 24px !important;
-  height: 24px !important;
+  width: 28px !important;
+  height: 28px !important;
   background-color: var(--hive-purple-500) !important;
   border-radius: 50% !important;
   border: none !important;
   position: absolute !important;
-  left: 4px !important;
+  left: 7px !important;
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
   display: flex !important;
   align-items: center !important;
@@ -170,16 +150,12 @@
 }
 
 [class*='colorModeToggle'] button svg {
-  width: 14px !important;
-  height: 14px !important;
+  width: 16px !important;
+  height: 16px !important;
   color: white !important;
 }
 
-[class*='colorModeToggle'] > svg {
-  display: none !important;
-}
-
-/* ===== 4. LÓGICA MOBILE (HEADER & SIDEBAR) ===== */
+/* header e sidebar mobile */
 @media (max-width: 996px) {
   .navbar__inner .navbar__logo {
     display: none !important;
@@ -201,21 +177,19 @@
 }
 
 .navbar__toggle.clean-btn {
-  color: var(--hive-purple-500) !important;
+  color: var(--hive-purple-00) !important;
 }
 
 [data-theme='dark'] .navbar__toggle.clean-btn {
   color: var(--hive-purple-200) !important;
 }
 
-/* ===== 5. FOOTER (AJUSTADO E CENTRALIZADO) ===== */
+/* footer */
 .footer {
-  background: #0d0012 !important;
-  border-top: 1px solid rgba(104,48,130,0.3);
+  background: #000 !important;
   padding: 3rem 1rem !important;
 }
 
-/* Container principal */
 .footer__links {
   display: flex !important;
   justify-content: space-between !important;
@@ -226,7 +200,6 @@
   margin-bottom: 1rem;
 }
 
-/* Remove largura gigante padrão do Docusaurus */
 .footer__col {
   width: auto !important;
   max-width: unset !important;
@@ -237,7 +210,6 @@
   align-items: flex-start;
 }
 
-/* Títulos */
 .footer__title {
   color: var(--hive-purple-200);
   font-weight: 700;
@@ -247,7 +219,7 @@
   margin-bottom: 1.2rem;
 }
 
-/* Documentação em 2 colunas */
+/* documentação em 2 colunas */
 .footer__col:first-child .footer__items {
   display: grid !important;
   grid-template-columns: repeat(2, max-content);
@@ -255,14 +227,14 @@
   row-gap: 1rem;
 }
 
-/* Parceiros */
+/* parceiros */
 .footer__col:last-child .footer__items {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* Links */
+/* links */
 .footer__link-item {
   color: rgba(255,255,255,0.65) !important;
   transition: color 0.2s;
@@ -273,19 +245,17 @@
   color: var(--hive-purple-200) !important;
 }
 
-/* Copyright */
 .footer__copyright {
-  color: rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.65);
   font-size: 0.8rem;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(255,255,255,0.25);
   padding-top: 1.5rem;
   margin-top: 2.5rem;
   text-align: center;
 }
 
-/* ===== MOBILE ===== */
+/* footer mobile */
 @media (max-width: 996px) {
-
   .footer__links {
     flex-direction: column !important;
     align-items: center !important;
@@ -320,20 +290,17 @@
   }
 }
 
-/* ===== Docs sidebar ===== */
+/* sidebar */
 .menu__link--active {
-  color: var(--hive-purple-400);
+  color: var(--hive-purple-200);
   font-weight: 600;
 }
 .menu__link:hover {
-  color: var(--hive-purple-500);
-  background: rgba(104,48,130,0.06);
-}
-.menu__caret {
-  color: var(--hive-purple-500);
+  color: var(--hive-purple-200);
+  background: rgba(161, 89, 209, 0.164);
 }
 
-/* ===== Markdown & Cards ===== */
+/* markdown e cards */
 .markdown h1 {
   background: linear-gradient(135deg, var(--hive-purple-600), var(--hive-purple-300));
   -webkit-background-clip: text;

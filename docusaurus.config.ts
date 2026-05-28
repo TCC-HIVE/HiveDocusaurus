@@ -38,7 +38,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/hive-social.png',
+    image: 'img/logo.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -47,6 +47,7 @@ const config: Config = {
       logo: {
         alt: 'HIVE Logo',
         src: 'img/hive_logo.png',
+        srcDark: 'img/hive_logo_white2.png',
       },
       items: [
         {
