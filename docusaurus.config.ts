@@ -47,7 +47,7 @@ const config: Config = {
       logo: {
         alt: 'HIVE Logo',
         src: 'img/hive_logo.png',
-        srcDark: 'img/hive_logo_white2.png',
+        srcDark: 'img/hive_logo_white.png',
       },
       items: [
         {

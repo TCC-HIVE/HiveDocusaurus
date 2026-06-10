@@ -9,32 +9,44 @@ sidebar_position: 3
 
 Esta seção descreve o principal desafio identificado no processo de criação de projetos e na adaptação de novos aprendizes ao Brand Guide da ETS, bem como a forma estratégica e tecnológica com que o HIVE foi desenvolvido para solucioná-lo.
 
----
+<br/>
 
 ## Desafio Identificado
 
-No contexto atual do desenvolvimento de interfaces, é comum que equipes de design e desenvolvimento trabalhem de forma **descentralizada**, o que frequentemente resulta em:
+No contexto atual do desenvolvimento de interfaces, é comum que equipes de design e desenvolvimento trabalhem de forma descentralizada, o que frequentemente resulta em:
 
-<div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(220px, 1fr))', gap:'1rem', margin:'1.5rem 0'}}>
-  <div style={{background:'#fff5f5', border:'1px solid #fed7d7', borderRadius:'12px', padding:'1.25rem'}}>
-    <span style={{fontSize:'1.5rem'}}>🔄</span>
-    <h4 style={{color:'#c53030', margin:'0.5rem 0 0.25rem'}}>Retrabalho constante</h4>
-    <p style={{fontSize:'0.87rem', color:'#555', margin:0}}>Recriação de componentes já existentes em outros projetos, desperdiçando tempo e esforço da equipe.</p>
+<div className="challenge-card-grid">
+  <div className="challenge-card">
+    <div className="challenge-card__header">
+      <h4>Retrabalho constante</h4>
+    </div>
+    <div className="challenge-card__body">
+      <p>Recriação de componentes já existentes em outros projetos, desperdiçando tempo e esforço da equipe.</p>
+    </div>
   </div>
-  <div style={{background:'#fff5f5', border:'1px solid #fed7d7', borderRadius:'12px', padding:'1.25rem'}}>
-    <span style={{fontSize:'1.5rem'}}>🎨</span>
-    <h4 style={{color:'#c53030', margin:'0.5rem 0 0.25rem'}}>Inconsistência visual</h4>
-    <p style={{fontSize:'0.87rem', color:'#555', margin:0}}>Falta de padronização entre projetos, comprometendo a identidade visual e a experiência do usuário.</p>
+  <div className="challenge-card">
+    <div className="challenge-card__header">
+      <h4>Inconsistência visual</h4>
+    </div>
+    <div className="challenge-card__body">
+      <p>Falta de padronização entre projetos, comprometendo a identidade visual e a experiência do usuário.</p>
+    </div>
   </div>
-  <div style={{background:'#fff5f5', border:'1px solid #fed7d7', borderRadius:'12px', padding:'1.25rem'}}>
-    <span style={{fontSize:'1.5rem'}}>🚧</span>
-    <h4 style={{color:'#c53030', margin:'0.5rem 0 0.25rem'}}>Curva de aprendizado</h4>
-    <p style={{fontSize:'0.87rem', color:'#555', margin:0}}>Novos aprendizes têm dificuldade em localizar os recursos padrão do Brand Guide da ETS.</p>
+  <div className="challenge-card">
+    <div className="challenge-card__header">
+      <h4>Curva de aprendizado</h4>
+    </div>
+    <div className="challenge-card__body">
+      <p>Novos aprendizes têm dificuldade em localizar os recursos padrão do setor.</p>
+    </div>
   </div>
-  <div style={{background:'#fff5f5', border:'1px solid #fed7d7', borderRadius:'12px', padding:'1.25rem'}}>
-    <span style={{fontSize:'1.5rem'}}>🔗</span>
-    <h4 style={{color:'#c53030', margin:'0.5rem 0 0.25rem'}}>Lacuna design-código</h4>
-    <p style={{fontSize:'0.87rem', color:'#555', margin:0}}>Ausência de uma ferramenta que integre prototipação no Figma com a implementação em código.</p>
+  <div className="challenge-card">
+    <div className="challenge-card__header">
+      <h4>Lacuna design-código</h4>
+    </div>
+    <div className="challenge-card__body">
+      <p>Ausência de uma ferramenta que integre prototipação no Figma com a implementação em código.</p>
+    </div>
   </div>
 </div>
 
