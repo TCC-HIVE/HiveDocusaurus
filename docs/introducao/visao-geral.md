@@ -50,49 +50,27 @@ No contexto atual do desenvolvimento de interfaces, é comum que equipes de desi
   </div>
 </div>
 
----
+<br/>
 
 ## Solução: HIVE
 
-Diante desse cenário, o HIVE se posiciona como uma solução que **centraliza, padroniza e facilita** o acesso a componentes de interface, integrando design e desenvolvimento em uma única plataforma colaborativa.
+Diante desse cenário, o HIVE se aoresenta como uma solução que **centraliza, padroniza e facilita** o acesso a componentes de interface, integrando design e código em uma única plataforma colaborativa.
 
-> *"Ao integrar design e código em uma mesma solução, o projeto contribui para a padronização, reduz o retrabalho e otimiza o fluxo de desenvolvimento."*
+> *Ao integrar design e código em uma mesma solução, o projeto contribui para a padronização, reduz o retrabalho e otimiza o fluxo de desenvolvimento.*
 
----
+<br/>
 
 ## Componentes do Projeto
 
-O HIVE é composto por **três módulos** que trabalham de forma integrada:
+O HIVE é composto por **quatro módulos** que trabalham de forma integrada:
 
 | Módulo | Tecnologia | Responsabilidade |
 |---|---|---|
 | **Plataforma Web** | React + TypeScript | Interface principal: listagem, cadastro e gerenciamento de componentes |
+| **API Backend** | Spring Boot | Regras de negócio, segurança, armazenamento e fornecimento dos dados para os demais módulos |
 | **Plugin Figma** | Preact + TypeScript | Exportação e importação de componentes entre Figma e a plataforma |
 | **Módulo Renderer** | React + TypeScript | Interpretação do JSON e renderização visual dos componentes |
 
+<br/>
+
 ---
-
-## Benefícios Estratégicos
-
-<div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(260px, 1fr))', gap:'1.25rem', margin:'1.5rem 0'}}>
-  <div style={{background:'linear-gradient(145deg, #f8f4ff, #fff)', border:'1px solid rgba(104,48,130,0.15)', borderRadius:'16px', padding:'1.5rem'}}>
-    <div style={{fontSize:'2rem', marginBottom:'0.75rem'}}>📈</div>
-    <h4 style={{color:'#461F68', margin:'0 0 0.5rem'}}>Produtividade</h4>
-    <p style={{fontSize:'0.88rem', color:'#3C3C3C', margin:0, lineHeight:1.6}}>Acesso rápido a componentes prontos reduz significativamente o tempo de desenvolvimento de novas interfaces.</p>
-  </div>
-  <div style={{background:'linear-gradient(145deg, #f8f4ff, #fff)', border:'1px solid rgba(104,48,130,0.15)', borderRadius:'16px', padding:'1.5rem'}}>
-    <div style={{fontSize:'2rem', marginBottom:'0.75rem'}}>🎯</div>
-    <h4 style={{color:'#461F68', margin:'0 0 0.5rem'}}>Padronização</h4>
-    <p style={{fontSize:'0.88rem', color:'#3C3C3C', margin:0, lineHeight:1.6}}>Todos os projetos do setor utilizam os mesmos componentes validados, garantindo consistência visual e funcional.</p>
-  </div>
-  <div style={{background:'linear-gradient(145deg, #f8f4ff, #fff)', border:'1px solid rgba(104,48,130,0.15)', borderRadius:'16px', padding:'1.5rem'}}>
-    <div style={{fontSize:'2rem', marginBottom:'0.75rem'}}>🤝</div>
-    <h4 style={{color:'#461F68', margin:'0 0 0.5rem'}}>Colaboração</h4>
-    <p style={{fontSize:'0.88rem', color:'#3C3C3C', margin:0, lineHeight:1.6}}>Qualquer membro da equipe pode contribuir com implementações em diferentes frameworks e versões.</p>
-  </div>
-  <div style={{background:'linear-gradient(145deg, #f8f4ff, #fff)', border:'1px solid rgba(104,48,130,0.15)', borderRadius:'16px', padding:'1.5rem'}}>
-    <div style={{fontSize:'2rem', marginBottom:'0.75rem'}}>🎓</div>
-    <h4 style={{color:'#461F68', margin:'0 0 0.5rem'}}>Onboarding</h4>
-    <p style={{fontSize:'0.88rem', color:'#3C3C3C', margin:0, lineHeight:1.6}}>Novos aprendizes encontram rapidamente os recursos padrão do Brand Guide já prontos para uso.</p>
-  </div>
-</div>
