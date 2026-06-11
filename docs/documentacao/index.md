@@ -52,10 +52,10 @@ Esta seção contém a documentação técnica detalhada do HIVE, organizada por
     </div>
   </a>
 
-  <a className="docs-card" href="/docs/documentacao/resultados">
+  <a className="docs-card" href="/docs/documentacao/testes">
     <span className="docs-card__arrow" aria-hidden="true">&#8599;</span>
     <div className="docs-card__content">
-      <h3>Resultados</h3>
+      <h3>Testes</h3>
       <p>Testes, métricas e conclusões obtidas com o desenvolvimento do projeto.</p>
     </div>
   </a>

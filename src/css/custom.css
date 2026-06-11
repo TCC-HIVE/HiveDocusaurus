@@ -633,7 +633,7 @@
 }
 
 [data-theme='dark'] .docs-card {
-  background:#382b40;
+  background:#463256;
   border-color: rgba(212, 174, 255, 0.2);
   color: var(--hive-purple-100);
 }
