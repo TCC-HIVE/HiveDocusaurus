@@ -1,7 +1,7 @@
 ---
-id: resultados
-title: Resultados
-sidebar_label: Resultados
+id: testes
+title: Testes
+sidebar_label: Testes
 sidebar_position: 7
 ---
 
