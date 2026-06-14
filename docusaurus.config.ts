@@ -87,7 +87,6 @@ const config: Config = {
             { label: 'Arquiteturas', to: '/docs/documentacao/arquiteturas' },
             { label: 'Identidade Visual', to: '/docs/documentacao/identidade-visual' },
             { label: 'Tecnologias', to: '/docs/documentacao/tecnologias' },
-            { label: 'Testes', to: '/docs/documentacao/testes' },
           ],
         },
         {

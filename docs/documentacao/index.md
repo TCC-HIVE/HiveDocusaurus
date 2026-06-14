@@ -40,7 +40,7 @@ Esta seção contém a documentação técnica detalhada do HIVE, organizada por
     <span className="docs-card__arrow" aria-hidden="true">&#8599;</span>
     <div className="docs-card__content">
       <h3>Identidade Visual</h3>
-      <p>Logo, paleta de cores, tipografia e diretrizes de design.</p>
+      <p>Logo, paleta de cores, tipografia e diretrizes de design do sistema.</p>
     </div>
   </a>
 
@@ -52,13 +52,6 @@ Esta seção contém a documentação técnica detalhada do HIVE, organizada por
     </div>
   </a>
 
-  <a className="docs-card" href="/docs/documentacao/testes">
-    <span className="docs-card__arrow" aria-hidden="true">&#8599;</span>
-    <div className="docs-card__content">
-      <h3>Testes</h3>
-      <p>Testes, métricas e conclusões obtidas com o desenvolvimento do projeto.</p>
-    </div>
-  </a>
 </div>
 
 ---

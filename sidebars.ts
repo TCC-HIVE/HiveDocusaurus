@@ -21,7 +21,6 @@ const sidebars: SidebarsConfig = {
         'documentacao/arquiteturas',
         'documentacao/identidade-visual',
         'documentacao/tecnologias',
-        'documentacao/testes',
       ],
     },
   ],
