@@ -292,12 +292,23 @@
 
 /* sidebar */
 .menu__link--active {
-  color: var(--hive-purple-300);
+  color: var(--hive-purple-500);
   font-weight: 600;
 }
+
+.navbar-sidebar .menu__link--active {
+  background: rgba(104, 48, 130, 0.1);
+  color: var(--hive-purple-500);
+}
+
 [data-theme='dark'] .menu__link--active {
   color: var(--hive-purple-200);
   font-weight: 600;
+}
+
+[data-theme='dark'] .navbar-sidebar .menu__link--active {
+  background: rgba(177, 125, 221, 0.12);
+  color: var(--hive-purple-200);
 }
 .menu__link:hover {
   color: var(--hive-purple-300);
