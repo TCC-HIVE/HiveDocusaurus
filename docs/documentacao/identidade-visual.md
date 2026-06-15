@@ -108,16 +108,42 @@ As cores do projeto combinam o **Brand Guide da ETS** (azul e cinza) com tons de
 
 ## Interfaces
 
-<div className="interface-preview">
-  <img src="/img/tela.svg" alt="Interface do HIVE" />
+As interfaces a seguir apresentam algumas das principais telas da plataforma e do plugin, demonstrando como a identidade visual do HIVE é aplicada em diferentes pontos da experiência. A seleção não contempla todas as telas do projeto, mas representa seus padrões visuais e de interação.
+
+<div className="interface-gallery">
+  <div className="interface-preview">
+    <img src="/img/home.svg" alt="Tela inicial da plataforma HIVE" />
+  </div>
+
+  <div className="interface-preview">
+    <img src="/img/metadados.svg" alt="Tela de metadados de um componente" />
+  </div>
+
+  <div className="interface-preview">
+    <img src="/img/code.svg" alt="Tela de código de um componente" />
+  </div>
+
+  <div className="interface-preview">
+    <img src="/img/preview.svg" alt="Tela de pré-visualização de um componente" />
+  </div>
+
+  <div className="interface-preview">
+    <img src="/img/criados.svg" alt="Tela de componentes criados" />
+  </div>
 </div>
 
-<div className="interface-preview">
-  <img src="/img/tela.svg" alt="Interface do HIVE" />
-</div>
+<div className="plugin-interface-grid">
+  <div className="plugin-interface-preview">
+    <img src="/img/plugin1.png" alt="Tela inicial do plugin HIVE" />
+  </div>
 
-<div className="interface-preview">
-  <img src="/img/tela.svg" alt="Interface do HIVE" />
+  <div className="plugin-interface-preview">
+    <img src="/img/plugin2.png" alt="Tela de exportação do plugin HIVE" />
+  </div>
+
+  <div className="plugin-interface-preview">
+    <img src="/img/plugin3.png" alt="Tela de importação do plugin HIVE" />
+  </div>
 </div>
 
 ---

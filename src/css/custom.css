@@ -1114,24 +1114,57 @@
   }
 }
 
-.interface-preview {
+.interface-gallery {
+  display: grid;
+  gap: 2rem;
   margin: 2rem 0;
+}
+
+.interface-preview {
+  margin: 0;
 }
 
 .interface-preview img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 16px;
-  box-shadow:
-    0 18px 44px rgba(47, 10, 64, 0.22),
-    0 0 0 1px rgba(104, 48, 130, 0.12);
+  box-shadow: 0 10px 26px rgba(37, 5, 52, 0.12);
+  border-radius: 24px;
 }
 
-[data-theme='dark'] .interface-preview img {
-  box-shadow:
-    0 20px 48px rgba(107, 69, 121, 0.5),
-    0 0 0 1px rgba(212, 174, 255, 0.18);
+.plugin-interface-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.plugin-interface-preview {
+  min-width: 0;
+}
+
+.plugin-interface-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 10px 26px rgba(37, 5, 52, 0.12);
+  border-radius: 20px;
+}
+
+[data-theme='dark'] .interface-preview img,
+[data-theme='dark'] .plugin-interface-preview img {
+  box-shadow: none;
+}
+
+@media (max-width: 700px) {
+  .plugin-interface-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plugin-interface-preview {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .technology-card-grid {
