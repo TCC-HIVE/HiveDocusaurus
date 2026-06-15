@@ -5,6 +5,8 @@ sidebar_label: Identidade Visual
 sidebar_position: 5
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Identidade Visual
 
 A identidade visual do HIVE foi criada para refletir os valores de **colaboração, inovação e tecnologia**, diferenciando-se dentro do contexto da ETS e do Brand Guide Bosch.
@@ -21,7 +23,7 @@ A identidade visual do HIVE foi criada para refletir os valores de **colaboraç�
 
 <div className="visual-identity-logo">
   <div className="visual-identity-logo__panel">
-    <img src="/img/logo.png" alt="Logo do HIVE" />
+    <img src={useBaseUrl('/img/logo.png')} alt="Logo do HIVE" />
   </div>
 </div>
 
@@ -112,37 +114,37 @@ As interfaces a seguir apresentam algumas das principais telas da plataforma e d
 
 <div className="interface-gallery">
   <div className="interface-preview">
-    <img src="/img/home.svg" alt="Tela inicial da plataforma HIVE" />
+    <img src={useBaseUrl('/img/home.svg')} alt="Tela inicial da plataforma HIVE" />
   </div>
 
   <div className="interface-preview">
-    <img src="/img/metadados.svg" alt="Tela de metadados de um componente" />
+    <img src={useBaseUrl('/img/metadados.svg')} alt="Tela de metadados de um componente" />
   </div>
 
   <div className="interface-preview">
-    <img src="/img/code.svg" alt="Tela de código de um componente" />
+    <img src={useBaseUrl('/img/code.svg')} alt="Tela de código de um componente" />
   </div>
 
   <div className="interface-preview">
-    <img src="/img/preview.svg" alt="Tela de pré-visualização de um componente" />
+    <img src={useBaseUrl('/img/preview.svg')} alt="Tela de pré-visualização de um componente" />
   </div>
 
   <div className="interface-preview">
-    <img src="/img/criados.svg" alt="Tela de componentes criados" />
+    <img src={useBaseUrl('/img/criados.svg')} alt="Tela de componentes criados" />
   </div>
 </div>
 
 <div className="plugin-interface-grid">
   <div className="plugin-interface-preview">
-    <img src="/img/plugin1.png" alt="Tela inicial do plugin HIVE" />
+    <img src={useBaseUrl('/img/plugin1.png')} alt="Tela inicial do plugin HIVE" />
   </div>
 
   <div className="plugin-interface-preview">
-    <img src="/img/plugin2.png" alt="Tela de exportação do plugin HIVE" />
+    <img src={useBaseUrl('/img/plugin2.png')} alt="Tela de exportação do plugin HIVE" />
   </div>
 
   <div className="plugin-interface-preview">
-    <img src="/img/plugin3.png" alt="Tela de importação do plugin HIVE" />
+    <img src={useBaseUrl('/img/plugin3.png')} alt="Tela de importação do plugin HIVE" />
   </div>
 </div>
 

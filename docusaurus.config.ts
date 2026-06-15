@@ -7,11 +7,13 @@ const config: Config = {
   tagline: 'Biblioteca colaborativa de componentes UI',
   favicon: 'img/logo.png',
 
-  url: 'https://hive-docs.github.io',
-  baseUrl: '/',
+  url: 'https://tcc-hive.github.io',
+  baseUrl: '/HiveDocusaurus/',
 
-  organizationName: 'hive-project',
-  projectName: 'hive-docs',
+  organizationName: 'TCC-HIVE',
+  projectName: 'HiveDocusaurus',
+
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',

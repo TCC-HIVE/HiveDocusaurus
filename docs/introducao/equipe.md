@@ -5,6 +5,8 @@ sidebar_label: Equipe
 sidebar_position: 2
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Conheça a Equipe
 
 O HIVE foi desenvolvido por quatro alunas do SENAI Roberto Mange e aprendizes na Bosch, unindo competências de design de interfaces e desenvolvimento de software para criar uma solução completa e inovadora.
@@ -14,7 +16,7 @@ O HIVE foi desenvolvido por quatro alunas do SENAI Roberto Mange e aprendizes na
 <div className="team-grid">
   <article className="team-card">
     <div className="team-card__image-wrapper">
-      <img className="team-card__image" src="/img/ana.png" alt="Ana Claudia Lopes dos Santos" />
+      <img className="team-card__image" src={useBaseUrl('/img/ana.png')} alt="Ana Claudia Lopes dos Santos" />
     </div>
     <div className="team-card__content">
       <h3>Ana Claudia Lopes dos Santos</h3>
@@ -24,7 +26,7 @@ O HIVE foi desenvolvido por quatro alunas do SENAI Roberto Mange e aprendizes na
 
   <article className="team-card">
     <div className="team-card__image-wrapper">
-      <img className="team-card__image" src="/img/rayssa.png" alt="Rayssa Chaves Carvalho de Melo" />
+      <img className="team-card__image" src={useBaseUrl('/img/rayssa.png')} alt="Rayssa Chaves Carvalho de Melo" />
     </div>
     <div className="team-card__content">
       <h3>Rayssa Chaves Carvalho de Melo</h3>
@@ -34,7 +36,7 @@ O HIVE foi desenvolvido por quatro alunas do SENAI Roberto Mange e aprendizes na
 
   <article className="team-card">
     <div className="team-card__image-wrapper">
-      <img className="team-card__image" src="/img/julia.png" alt="Julia Roberts Laurindo da Silva" />
+      <img className="team-card__image" src={useBaseUrl('/img/julia.png')} alt="Julia Roberts Laurindo da Silva" />
     </div>
     <div className="team-card__content">
       <h3>Julia Roberts Laurindo da Silva</h3>
@@ -44,7 +46,7 @@ O HIVE foi desenvolvido por quatro alunas do SENAI Roberto Mange e aprendizes na
 
   <article className="team-card">
     <div className="team-card__image-wrapper">
-      <img className="team-card__image" src="/img/nicole.png" alt="Nicole Fernanda dos Santos Baschiera" />
+      <img className="team-card__image" src={useBaseUrl('/img/nicole.png')} alt="Nicole Fernanda dos Santos Baschiera" />
     </div>
     <div className="team-card__content">
       <h3>Nicole Fernanda dos Santos Baschiera</h3>

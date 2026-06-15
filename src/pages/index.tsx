@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
@@ -10,7 +11,7 @@ function HeroSection() {
       <div className={styles.heroInner}>
         <div className={styles.logoWrapper}>
           <img
-            src="/img/logo.png"
+            src={useBaseUrl('/img/logo.png')}
             alt="HIVE Logo"
             className={styles.heroLogo}
           />
