@@ -60,5 +60,5 @@ Esta seção contém a documentação técnica detalhada do HIVE, organizada por
 ---
 
 :::tip Documentação completa
-Para acesso ao documento técnico completo em PDF, <Link to={useBaseUrl('/hive_doc1.pdf')}>clique aqui</Link>.
+Para acesso ao documento técnico completo em PDF, [clique aqui](/hive_doc1.pdf).
 :::
