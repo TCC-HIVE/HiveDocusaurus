@@ -167,8 +167,9 @@
 
 .cardsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 2rem;
+  width: 100%;
 }
 
 /* ===== NOVO CARD ===== */
@@ -436,4 +437,18 @@
 @media (max-width: 768px) {
   .heroTitle { font-size: 3.5rem; }
   .logoWrapper { flex-direction: column; gap: 0.5rem; }
+
+  .featuresSection {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .cardsGrid {
+    justify-items: center;
+  }
+
+  .featureCard {
+    width: 100%;
+    max-width: 360px;
+  }
 }
